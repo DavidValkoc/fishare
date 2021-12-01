@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fishare"
+version = "0.1.0"
+description = ""
+authors = ["dolukac <dominik.lukac@t-systems.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ipython = "^7.30.0"
+fastapi = "^0.70.0"
+uvicorn = "^0.15.0"
+unicorn = "^1.0.3"
+httpie = "^2.6.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
